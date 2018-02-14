@@ -1,0 +1,66 @@
+.front, .back {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  perspective: 500px;
+  background-color: #881356;
+  background-image: linear-gradient(90deg, #881356 0%, #6d18b9 50%, #1989d6 100%); }
+
+#topPaddind {
+  padding: 100px 0 0 0; }
+
+#center {
+  margin-right: 100px; }
+
+.card {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
+  transition: 1.25s; }
+  .card:hover {
+    transform: rotateY(-180deg); }
+
+.front {
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 3.5em;
+  text-shadow: 2px 2px 3px rgba(173, 166, 166, 0.5);
+  background: url("imgs/roses.jpg") no-repeat;
+  background-size: cover;
+  background-position: -200px;
+  color: #970023;
+  z-index: 2;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: top; }
+  .front span {
+    transform: rotate(-20deg);
+    padding: 20px; }
+
+.back {
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 2em;
+  text-shadow: 2px 2px 3px rgba(173, 166, 166, 0.5);
+  background: url("imgs/p2.png") no-repeat;
+  background-size: cover;
+  color: #000000;
+  z-index: 3;
+  transform: rotateY(-180deg);
+  backface-visibility: hidden;
+  display: inline-block; }
+  .back p {
+    margin: 20px 0 20px 25px; }
