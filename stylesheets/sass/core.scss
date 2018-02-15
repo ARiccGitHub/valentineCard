@@ -23,10 +23,10 @@ body{
   width: 100vw;
   perspective: 500px;
 
-  //background:url('imgs/p2.png') no-repeat;
-  //background-size: cover;
-  background-color: #9fcaa3;
-  background-image: linear-gradient(132deg, #9fcaa3 0%, #205c2e 64%);
+  background:url('imgs/p2.png') no-repeat;
+  background-size: cover;
+  //background-color: #9fcaa3;
+  //background-image: linear-gradient(132deg, #9fcaa3 0%, #205c2e 64%);
 
 
 
@@ -52,8 +52,8 @@ body{
   position: relative;
   transform-style: preserve-3d;
 
-  border-radius: .65em;
-  box-shadow: 3px 3px 15px rgba(0,0,0,.25);
+  border-radius: 65em;
+
   transition: 1.25s;
 
   &:hover{
@@ -70,6 +70,7 @@ body{
   text-shadow: 2px 2px 3px rgba(173,166,166,.5);
 
   border-radius: .65em;
+  box-shadow: 0 0 10px #B7E89C;
 
   background:url('imgs/roses.jpg') no-repeat;
   background-size: cover;
@@ -96,7 +97,9 @@ body{
   font-size: 2em;
   text-shadow: 2px 3px 3px rgba(173,166,166,.5);
 
+
   border-radius: .65em;
+  box-shadow: 0 0 25px rgb(0,0,0);
 
   background:url('imgs/parchement.jpeg') no-repeat;
   background-size:cover;
