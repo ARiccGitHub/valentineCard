@@ -33,21 +33,21 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/stylesheets\/css\/imgs\/p.jpeg": {
+	"\/stylesheets\/css\/imgs\/back.jpg": {
 		"ft": 16384,
-		"iS": 5900,
+		"iS": 296334,
 		"oA": 0,
-		"oAP": "\/stylesheets\/css\/imgs\/p.jpg",
+		"oAP": "\/stylesheets\/css\/imgs\/back.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/stylesheets\/css\/imgs\/p.jpg": {
+	"\/stylesheets\/css\/imgs\/hearts.jpg": {
 		"ft": 16384,
-		"iS": 5899,
+		"iS": 1182065,
 		"oA": 0,
-		"oAP": "\/stylesheets\/css\/imgs\/p.jpg",
+		"oAP": "\/stylesheets\/css\/imgs\/hearts.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -59,36 +59,36 @@
 		"oA": 0,
 		"oAP": "\/stylesheets\/css\/imgs\/p2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/stylesheets\/css\/imgs\/paper.jpg": {
+	"\/stylesheets\/css\/imgs\/pageBackground.jpg": {
 		"ft": 16384,
-		"iS": 24990,
+		"iS": 1475615,
 		"oA": 0,
-		"oAP": "\/stylesheets\/css\/imgs\/paper.jpg",
+		"oAP": "\/stylesheets\/css\/imgs\/pageBackground.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/stylesheets\/css\/imgs\/parchement.jpeg": {
+		"ft": 16384,
+		"iS": 1611,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/parchement.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/stylesheets\/css\/imgs\/parch.jpeg": {
+	"\/stylesheets\/css\/imgs\/parchement.jpg": {
 		"ft": 16384,
-		"iS": 4710,
+		"iS": 2657,
 		"oA": 0,
-		"oAP": "\/stylesheets\/css\/imgs\/parch.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/stylesheets\/css\/imgs\/parch2.jpeg": {
-		"ft": 16384,
-		"iS": 4710,
-		"oA": 0,
-		"oAP": "\/stylesheets\/css\/imgs\/parch2.jpg",
+		"oAP": "\/stylesheets\/css\/imgs\/parchement.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

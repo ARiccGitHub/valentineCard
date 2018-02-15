@@ -23,9 +23,14 @@ body{
   width: 100vw;
   perspective: 500px;
 
+  //background:url('imgs/p2.png') no-repeat;
+  //background-size: cover;
+  background-color: #9fcaa3;
+  background-image: linear-gradient(132deg, #9fcaa3 0%, #205c2e 64%);
 
-  background-color: #881356;
-  background-image: linear-gradient(90deg, #881356 0%, #6d18b9 50%, #1989d6 100%);
+
+
+
 }
 
 //IDs
@@ -35,7 +40,7 @@ body{
 }
 
 #center{
-  margin-right: 100px;
+  margin: 0 25px 20px 150px;
 }
 
 //CLASSES
@@ -47,7 +52,7 @@ body{
   position: relative;
   transform-style: preserve-3d;
 
-  border-radius: 10px;
+  border-radius: .65em;
   box-shadow: 3px 3px 15px rgba(0,0,0,.25);
   transition: 1.25s;
 
@@ -64,9 +69,12 @@ body{
   font-size: 3.5em;
   text-shadow: 2px 2px 3px rgba(173,166,166,.5);
 
+  border-radius: .65em;
+
   background:url('imgs/roses.jpg') no-repeat;
   background-size: cover;
   background-position: -200px;
+
   color: #970023;
   z-index: 2;
   backface-visibility: hidden;
@@ -86,10 +94,12 @@ body{
 
   font-family: 'Kaushan Script', sans-serif;
   font-size: 2em;
-  text-shadow: 2px 2px 3px rgba(173,166,166,.5);
+  text-shadow: 2px 3px 3px rgba(173,166,166,.5);
 
-  background:url('imgs/p2.png') no-repeat;
-  background-size: cover;
+  border-radius: .65em;
+
+  background:url('imgs/parchement.jpeg') no-repeat;
+  background-size:cover;
 
   color: #000000;
 
@@ -98,8 +108,7 @@ body{
   backface-visibility: hidden;
   display:inline-block;
 
-
   p{
-      margin: 20px 0 20px 25px;
+      margin: 30px 25px 20px 75px;
   }
 }
