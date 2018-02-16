@@ -54,7 +54,7 @@ body {
   align-items: top; }
   .front span {
     transform: rotate(-20deg);
-    padding: 20px; }
+    padding: 50px; }
 
 .back {
   font-family: 'Kaushan Script', sans-serif;

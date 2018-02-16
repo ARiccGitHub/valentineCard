@@ -51,17 +51,23 @@ body{
 
   border-radius: 65em;
   transition: 1.25s;
-  -webkit-backface-visibility:hidden;// -webkit- prefix added to backface-visibility
-                                      // to be compatible with IPhones and IPads
+
+  // -webkit- prefix was added to backface-visibility
+  //  to be make it compatible with IPhones and IPads
+  -webkit-backface-visibility:hidden;
+
 
    &:hover{
       transform: rotateY(-180deg);
     }
 
-  @media (hover: none){             //added CSS rule to be compatible with IPhones and IPads
-    &:active{
-      transform: rotateY(-180deg);
-    }
+//CSS rule, @maedia was added to the program
+//to make it be compatible with IPhones and IPads (touch Screen devises)
+
+  @media (hover: none){
+      &:active{
+        transform: rotateY(-180deg);
+      }
   }
 }
 
@@ -92,7 +98,7 @@ body{
 
   span{
     transform: rotate(-20deg);
-    padding: 20px;
+    padding: 50px;
   }
 }
 
