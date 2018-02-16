@@ -23,15 +23,24 @@ body {
 #center {
   margin: 0 25px 20px 150px; }
 
-.card {
-  height: 600px;
-  width: 400px;
-  position: relative;
-  transform-style: preserve-3d;
-  border-radius: 65em;
-  transition: 1.25s; }
-  .card:hover {
-    transform: rotateY(-180deg); }
+@media any-hover {
+  .card {
+    height: 600px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    border-radius: 65em;
+    transition: 1.25s;
+    /*  &:focus{
+    transform: rotateY(-180deg);
+  }
+  &:enabled{
+    transform: rotateY(-180deg);
+  } */ }
+    .card:hover {
+      transform: rotateY(-180deg); }
+    .card:active {
+      transform: rotateY(-180deg); } }
 
 .front {
   font-family: 'Kaushan Script', sans-serif;

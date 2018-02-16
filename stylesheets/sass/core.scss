@@ -10,6 +10,7 @@
   width:  100%;
 }
 
+
 %flexCenter{
   display: flex;
   justify-content: center;
@@ -39,8 +40,10 @@ body{
 }
 
 //CLASSES
+ @media any-hover {
 
 .card{
+
   height: 600px;
   width:  400px;
 
@@ -51,10 +54,24 @@ body{
 
   transition: 1.25s;
 
-  &:hover{
+
+   &:hover{
+      transform: rotateY(-180deg);
+    }
+
+  &:active{
     transform: rotateY(-180deg);
   }
+/*  &:focus{
+    transform: rotateY(-180deg);
+  }
+  &:enabled{
+    transform: rotateY(-180deg);
+  } */
 }
+}
+
+
 
 .front{
   @extend %cardDimensions;
@@ -84,6 +101,7 @@ body{
     padding: 20px;
   }
 }
+
 
 .back{
   @extend %cardDimensions;
