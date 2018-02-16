@@ -23,22 +23,17 @@ body {
 #center {
   margin: 0 25px 20px 150px; }
 
-@media any-hover {
-  .card {
-    height: 600px;
-    width: 400px;
-    position: relative;
-    transform-style: preserve-3d;
-    border-radius: 65em;
-    transition: 1.25s;
-    /*  &:focus{
-    transform: rotateY(-180deg);
-  }
-  &:enabled{
-    transform: rotateY(-180deg);
-  } */ }
-    .card:hover {
-      transform: rotateY(-180deg); }
+.card {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  border-radius: 65em;
+  transition: 1.25s;
+  -webkit-backface-visibility: hidden; }
+  .card:hover {
+    transform: rotateY(-180deg); }
+  @media (hover: none) {
     .card:active {
       transform: rotateY(-180deg); } }
 
@@ -52,8 +47,8 @@ body {
   background-size: cover;
   background-position: -200px;
   color: #970023;
-  z-index: 2;
-  backface-visibility: hidden;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
   display: flex;
   justify-content: center;
   align-items: top; }
@@ -70,9 +65,9 @@ body {
   background: url("imgs/parchement.jpeg") no-repeat;
   background-size: cover;
   color: #000000;
-  z-index: 3;
+  z-index: 2;
   transform: rotateY(-180deg);
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   display: inline-block; }
   .back p {
     margin: 30px 25px 20px 75px; }
