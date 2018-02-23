@@ -7,7 +7,7 @@
 		"uuidString": "ECA96C62-9CDC-4DE1-A32F-28A355D716A6"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -50,7 +50,7 @@
 		"oAP": "\/stylesheets\/css\/imgs\/hearts.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/stylesheets\/css\/imgs\/p2.png": {
@@ -71,7 +71,7 @@
 		"oAP": "\/stylesheets\/css\/imgs\/pageBackground.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/stylesheets\/css\/imgs\/parchement.jpeg": {
@@ -101,7 +101,7 @@
 		"oAP": "\/stylesheets\/css\/imgs\/roses.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/stylesheets\/css\/reset-min.css": {
@@ -149,7 +149,8 @@
 	"creationDate": 540181826,
 	"displayValue": "valentineCard",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-jake"
+	"iconImageName": "meme-jake",
+	"lastBuiltDate": 541101382
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -157,6 +158,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

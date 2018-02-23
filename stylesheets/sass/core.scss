@@ -50,11 +50,11 @@ body{
   transform-style: preserve-3d;
 
   border-radius: 65em;
-  transition: 1.25s;
+  transition: 1.55s;
 
-  // -webkit- prefix was added to backface-visibility
+  /* -webkit- prefix was added to backface-visibility
   //  to be make it compatible with IPhones and IPads
-  -webkit-backface-visibility:hidden;
+  //-webkit-backface-visibility:hidden;*/
 
 
    &:hover{
@@ -78,7 +78,7 @@ body{
 
 
   font-family: 'Kaushan Script', sans-serif;
-  font-size: 3em;
+  font-size: 3.2em;
   text-shadow: 2px 2px 3px rgba(173,166,166,.5);
 
   border-radius: .65em;

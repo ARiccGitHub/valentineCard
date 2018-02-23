@@ -29,8 +29,10 @@ body {
   position: relative;
   transform-style: preserve-3d;
   border-radius: 65em;
-  transition: 1.25s;
-  -webkit-backface-visibility: hidden; }
+  transition: 1.55s;
+  /* -webkit- prefix was added to backface-visibility
+  //  to be make it compatible with IPhones and IPads
+  //-webkit-backface-visibility:hidden;*/ }
   .card:hover {
     transform: rotateY(-180deg); }
   @media (hover: none) {
@@ -39,7 +41,7 @@ body {
 
 .front {
   font-family: 'Kaushan Script', sans-serif;
-  font-size: 3em;
+  font-size: 3.2em;
   text-shadow: 2px 2px 3px rgba(173, 166, 166, 0.5);
   border-radius: .65em;
   box-shadow: 0 0 10px #B7E89C;
